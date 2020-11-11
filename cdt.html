@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+<script>
+    let a = parseFloat(prompt("Nhập số tiền cần đổi:" ));
+    let b = prompt("Nhập loại tiên bạn muốn chuyển đổi VND or USD")
+    if(b=="VND") {
+        alert("VND" + "=" + a / 23000 + "USD")
+    }else if (b=="USD") {
+        alert("USD" + "=" + a * 23000 + "VND")
+    }   else {
+        alert("Bạn chọn sai kiểu quy đổi:")
+    }
+</script>
+</html>
